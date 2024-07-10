@@ -13,8 +13,7 @@ const Home = () => {
         src={backgroundImage}
         alt="backgroundImage"
         layout="fill"
-        objectFit="cover"
-        className="z-0 relative"
+        className="z-0 relative object-cover"
       />
       <div className=" z-10 flex flex-col items-center justify-center text-center">
         <div className="p-3 flex items-center justify-center bg-[#FF2157] rounded-full absolute top-[56%] ">

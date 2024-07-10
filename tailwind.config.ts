@@ -76,6 +76,7 @@ const config = {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
         grand: ['"Grand Hotel"', "cursive"],
+        inter: ['"Inter"', "mont"],
       },
     },
   },
