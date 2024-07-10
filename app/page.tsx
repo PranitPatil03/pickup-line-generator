@@ -1,9 +1,7 @@
-import { Button } from "@/components/ui/button";
+"use client";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Button>Submit</Button>
-    </main>
-  );
+import Home from "@/components/Home";
+
+export default function Main() {
+  return <Home></Home>;
 }
